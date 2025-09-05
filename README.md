@@ -18,14 +18,7 @@ To compile with `mpicxx`:
 
 ```bash
 mpicxx main.cc game.cc utilities.cc -o solver
-## How to Run (Local)
-
-```bash
-mpirun -np 4 ./solver input.dat output.dat
 ```
-
-- `input.dat`: Input puzzle(s)  
-- `output.dat`: Output results
 
 ## Running on HPC (SLURM)
 
